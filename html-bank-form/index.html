@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<div class="form-container">
+   <h2>Create a Bank Account</h2>
+  <form id="bankAccountForm" action="#" method="post">
+    <label for="firstName">First Name:</label>
+     <input type="text" id="firstName" name="firstName" required>
+    
+    <label for="lastName">Last Name:</label>
+     <input type="text" id="lastName" name="lastName" required>
+    
+    <label for="email">Email:</label>
+     <input type="email" id="email" name="email" required>
+    
+    <label for="phone">Phone Number:</label>
+     <input type="text" id="phone" name="phone" required>
+    
+    <label for="accountType">Account Type:</label>
+      <select id="accountType" name="accountType" required>
+        <option value="">Select Account Type</option>
+        <option value="savings">Savings Account</option>
+        <option value="current">Current Account</option>
+      </select>
+    
+    <label for="initialDeposit">Initial Deposit:</label>
+     <input type="number" id="initialDeposit" name="initialDeposit" min="0" required>
+    
+    <input type="submit" value="Create Account">
+  </form>
+</div>
+
+</body>
+</html>
